@@ -735,9 +735,9 @@ body {
 p {
   margin: 0px 0px 16px 0px;
   margin: 0rem 0rem 1rem 0rem;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
   -moz-font-feature-settings: "liga=1, dlig=1, onum=1";
   -moz-font-feature-settings: "liga", "dlig", "onum";
   -ms-font-feature-settings: "liga", "dlig", "onum";
