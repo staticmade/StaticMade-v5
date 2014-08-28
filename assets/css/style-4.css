@@ -1457,3 +1457,21 @@ article.page .post-meta {
   background: #f3f3f3;
   padding: 1em;
   border-radius: 0.25em; }
+  
+/* SEARCH FORM */
+
+#search-field {
+width: 100%;
+background-color: #eaedee;
+border: 1px solid #D9D9D9;
+padding: 4px 2.5%;
+margin-bottom: 1em;
+color: #333;
+-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+}
+
+#results {
+	text-align: center;
+}
