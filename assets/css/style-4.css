@@ -1471,3 +1471,13 @@ color: #333;
 -moz-border-radius: 12px;
 border-radius: 12px;
 }
+
+/* LINKED LIST STYLES */
+
+.rss-box ul {
+	list-style-type: none; }
+.rss-box li {
+	 margin-left: -2.25em;
+	 margin-bottom: 1em; }
+.rss-date {
+	font-style: italic;  }
