@@ -900,6 +900,7 @@ h4, h5, h6 {
   animation-iteration-count: 1;
   font-family: 'Open Sans Condensed', sans-serif;
   text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
   color: white;
   display: block;
   margin: 1em; }
@@ -921,6 +922,7 @@ h4, h5, h6 {
 
 .blog-title {
   font-size: 1.8em;
+  font-weight: 300;
   line-height: 1; }
   @media screen and (min-width: 480px) {
     .blog-title {
