@@ -705,7 +705,7 @@ blockquote {
     font-family: 'northemes-icons';
     font-size: 1.8em;
     position: absolute;
-    margin-left: -1.1em;
+    margin-left: -1.2em;
     margin-top: -0.1em; }
   blockquote cite {
     font-weight: bold; }
@@ -1073,6 +1073,7 @@ ul.main-menu {
   opacity: 0;
   overflow: hidden;
   font-family: 'Open Sans Condensed', sans-serif;
+  -webkit-font-smoothing: antialiased;
   text-transform: uppercase;
   padding: 0;
   font-size: 1em; }
@@ -1222,7 +1223,15 @@ article.post {
   padding: 0 0 2em 0;
   position: relative;
   overflow: hidden;
-  font-size: 1.1em; }
+  font-size: 1.1em;
+  background-color: #fafaf9; }
+  
+article.post-even {
+  padding: 0 0 2em 0;
+  position: relative;
+  overflow: hidden;
+  font-size: 1.1em;
+  background-color: #fdefef; /*#ecedef;*/ }
   article.post img {
     width: 100%;
     height: auto;
@@ -1281,6 +1290,23 @@ article.post .content-wrapper {
     article.post .content-wrapper {
       margin-left: 10%;
       margin-right: 10%; } }
+      
+article.post-even .content-wrapper-even {
+  max-width: 640px;
+  max-width: 40rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative; }
+  @media screen and (min-width: 768px) {
+    article.post .content-wrapper-even {
+      margin-left: 15%;
+      margin-right: 15%; } }
+  @media screen and (min-width: 1024px) {
+    article.post .content-wrapper-even {
+      margin-left: 10%;
+      margin-right: 10%; } }
+      
+
 
 article.post .post-title {
   margin-top: 1.6em;
