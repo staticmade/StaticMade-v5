@@ -1277,8 +1277,8 @@ article.post-even {
   display: none; }
 
 article.post .content-wrapper {
-  max-width: 640px;
-  max-width: 40rem;
+  /*max-width: 640px;
+  max-width: 40rem;*/
   margin-left: 5%;
   margin-right: 5%;
   position: relative; }
@@ -1292,8 +1292,8 @@ article.post .content-wrapper {
       margin-right: 10%; } }
       
 article.post-even .content-wrapper-even {
-  max-width: 640px;
-  max-width: 40rem;
+  /*max-width: 640px;
+  max-width: 40rem;*/
   margin-left: 5%;
   margin-right: 5%;
   position: relative; }
