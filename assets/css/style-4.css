@@ -1516,9 +1516,10 @@ border-radius: 12px;
 	
 /* SHARE ACTIONS */
 
-.post-share p{
+.post-share p {
 	color: #bbb;
 	font-style: italic;
+	padding-top: 2em;
 }
 
 ul.actions {
