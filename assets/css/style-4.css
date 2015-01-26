@@ -1535,25 +1535,23 @@ ul.actions {
     }
 
     ul.actions li a {
+	    display: block;
     	color: #bbb;
 	    font-weight: normal;
 	    font-size: inherit;
+	    transition: color .2s;
     }
 
-    ul.actions li a:hover {
-    	color: #111111;
+    ul.actions li a:hover, ul li a:focus {
+    	color: #999;
     }
 	.share {
 		padding: 10px;
-		/*font-size: 0.7em !important;*/
 		border-radius: 0px;
 		border: .15em solid #bbb;
-		/*font-family: Source Sans Pro !important;
-		font-weight: 200 !important;*/
 	}
-	.share:hover, .share:active {
-    /*background: #bbb;*/
+	/*.share:hover, .share:active {
     color: #111111 !important;
     border-radius: 0px;
 	border: .15em solid #111111;
-    }
+    }*/
