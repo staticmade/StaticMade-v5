@@ -1513,3 +1513,46 @@ border-radius: 12px;
 .rss-date {
 	font-style: italic;
 	font-size: .9em;  }
+	
+/* SHARE ACTIONS */
+
+.post-share p{
+	color: #bbb;
+	font-style: italic;
+}
+
+ul.actions {
+    	margin-top: 15px;
+    	padding-left: 0px;
+    }
+
+    ul.actions li {
+    	display: inline-block;
+    	line-height: 1.5em;
+    	margin-right: 15px;
+    	margin-bottom: 15px;
+    }
+
+    ul.actions li a {
+    	color: #bbb;
+	    font-weight: normal;
+	    font-size: inherit;
+    }
+
+    ul.actions li a:hover {
+    	color: #111111;
+    }
+	.share {
+		padding: 10px;
+		/*font-size: 0.7em !important;*/
+		border-radius: 0px;
+		border: .15em solid #bbb;
+		/*font-family: Source Sans Pro !important;
+		font-weight: 200 !important;*/
+	}
+	.share:hover, .share:active {
+    /*background: #bbb;*/
+    color: #111111 !important;
+    border-radius: 0px;
+	border: .15em solid #111111;
+    }
