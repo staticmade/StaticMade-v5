@@ -1462,10 +1462,10 @@ article.page .post-meta {
     content: 'k';
     background-color: #00acee; }
 .home-template .tag-format-link, .archive-template .tag-format-link {
-  background-color: #fdefef; }
+  background-color: #ecedef; }
   .home-template .tag-format-link:before, .archive-template .tag-format-link:before {
     content: 'h';
-    background-color: #f3615f; }
+    background-color: #455466; }
 .home-template .tag-format-quote, .archive-template .tag-format-quote {
   background-color: #ecedef; }
   .home-template .tag-format-quote:before, .archive-template .tag-format-quote:before {
@@ -1555,3 +1555,32 @@ ul.actions {
     border-radius: 0px;
 	border: .15em solid #111111;
     }*/
+    
+    /* MAILCHIMP FORM */
+	    
+div.mc-field-group input {
+	font-style: italic;
+	line-height: 1.5em;
+	padding: .5em;
+	width: 100%;
+	margin-bottom: 1em;
+	border: none;
+}
+
+input.button {
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+  -webkit-transition: background 0.2s ease-in-out;
+  -moz-transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
+  margin-top: 1em;
+  background: #f3615f;
+  padding: 0.65em 1.25em;
+  color: white;
+  border: none; }
+
+input.button:hover {
+    background: #da5755; }
