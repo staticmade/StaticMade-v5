@@ -95,9 +95,14 @@ mark {
 code, kbd, pre, samp {
   font-family: monospace, serif;
   font-size: 1em; }
-  
-hr { display: block; height: 1px;
-     border: 0; border-top: 1px solid #ccc; }
+ 
+hr { /*display: block; height: 1px;
+     border: 0; border-top: 1px solid #ccc;*/
+     border: 0;
+     height: 0;
+     border-top: 1px solid rgba(0, 0, 0, 0.1);
+     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+     margin-top: 3em; }
 
 pre {
   white-space: pre;
@@ -1479,15 +1484,21 @@ article.page .post-meta {
     display: none; }
 
 .site-footer {
-  padding: 0 5% 1.5em 5%;
+  /*padding: 0 5% 1.5em 5%;*/
   line-height: 1.5;
   font-weight: 300;
   text-align: center; }
 
 .footer-text {
-  background: #f3f3f3;
+  background: #455466;
   padding: 1em;
-  border-radius: 0.25em; }
+  color: #FAFAF9;
+  font-size: .75em; }
+
+.footer-text a{
+	color: #FFF;
+	font-weight: bold;
+}
   
 /* SEARCH FORM */
 
@@ -1517,7 +1528,7 @@ border-radius: 12px;
 /* SHARE ACTIONS */
 
 .post-share p {
-	color: #bbb;
+	color: #ccc;
 	font-style: italic;
 	padding-top: 2em;
 }
@@ -1536,7 +1547,7 @@ ul.actions {
 
     ul.actions li a {
 	    display: block;
-    	color: #bbb;
+    	color: #ccc;
 	    font-weight: normal;
 	    font-size: inherit;
 	    transition: color .2s;
@@ -1548,7 +1559,7 @@ ul.actions {
 	.share {
 		padding: 10px;
 		border-radius: 0px;
-		border: .15em solid #bbb;
+		border: .15em solid #ccc;
 	}
 	/*.share:hover, .share:active {
     color: #111111 !important;
