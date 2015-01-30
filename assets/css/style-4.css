@@ -1342,8 +1342,7 @@ article.post .read-more {
 article.post .post-meta {
   font-style: italic;
   display: inline-block;
-  border-top: 0.25em solid #f1f1ee;
-  padding-top: 0.5em;
+  border-top: none; 
   min-width: 15em;
   margin-bottom: 1em; }
 
@@ -1364,14 +1363,21 @@ article.page .post-meta {
 
 .pagination {
   *zoom: 1;
-  margin: 1em 5%;
-  text-align: center;
-  font-size: 1.1em; }
+  /*margin: 1em 5%;*/
+  margin-top: 1em;
+  background-color: #455466;
+  color: #e8e8e8;
+  text-align: center; }
   .pagination:before, .pagination:after {
     content: " ";
-    display: table; }
+    display: table;}
   .pagination:after {
     clear: both; }
+
+.pagination a{
+	color: #fff;
+	font-weight: bold;
+}
 
 .page-numbers {
   margin-top: 2em; }
@@ -1392,6 +1398,11 @@ article.page .post-meta {
     transition: all 0.25s ease-in-out; }
     .page-numbers a:hover {
       background: #6a7684; }
+      
+.pages {
+	display: block;
+	padding: 0px 10px;
+}
 
 .social {
   *zoom: 1; }
