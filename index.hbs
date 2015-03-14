@@ -6,7 +6,7 @@
 
 			<!--<article id="post-{{id}}" class="post {{post_class}}" role="article" itemscope itemtype="http://schema.org/Article">-->
 			<article id="post-{{id}}" class="{{#if @even}}post-even {{post_class}}{{else}}post {{post_class}}{{/if}}" role="article" itemscope itemtype="http://schema.org/Article">
-			    <!--{{content words = "0"}}-->
+			    {{content words = "0"}}
 
 			    <!--<div class="content-wrapper">-->
 			    <div class="{{#if @even}}content-wrapper-even{{else}}content-wrapper{{/if}}">
@@ -25,7 +25,6 @@
 
 				    <div class="post-content" itemprop="articleBody">
 
-							{{content words = "0"}}					
 							{{content}}
 						
 						
