@@ -1225,14 +1225,14 @@ ul.main-menu.expanded {
     background-size: cover; }
 
 article.post {
-  padding: 0 0 2em 0;
+  padding: 0;
   position: relative;
   overflow: hidden;
   font-size: 1.1em;
   background-color: #fafaf9; }
   
 article.post-even {
-  padding: 0 0 2em 0;
+  padding: 0;
   position: relative;
   overflow: hidden;
   font-size: 1.1em;
@@ -1364,7 +1364,8 @@ article.page .post-meta {
 .pagination {
   *zoom: 1;
   /*margin: 1em 5%;*/
-  margin-top: 1em;
+  margin-top: 0;
+  padding-top: 1em;
   background-color: #455466;
   color: #e8e8e8;
   text-align: center; }
