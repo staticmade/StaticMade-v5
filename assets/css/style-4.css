@@ -1250,7 +1250,7 @@ article.post-even {
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    font-family: 'northemes-icons';
+    font-family: 'FontAwesome' /*'northemes-icons'*/;
     background: #FFF;
     text-align: center;
     display: block;
@@ -1278,7 +1278,11 @@ article.post-even {
 }*/
 
 .home-template .tag-format-link:before, .archive-template .tag-format-link:before {
-    content: 'h';
+    content: '\f004'; /*'h';*/
+    background-color: #455466; }
+    
+.home-template .tag-format-like:before, .archive-template .tag-format-like:before {
+    content: '\f004'; /*'h';*/
     background-color: #455466; }
 
 .home-template article.post.featured, .archive-template article.post.featured {
