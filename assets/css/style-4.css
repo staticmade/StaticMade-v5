@@ -1284,23 +1284,23 @@ article.post-even {
 /*.tag-format-link img {
 	-webkit-filter: grayscale(0.7)  opacity(0.9);  
     filter:alpha(opacity=70);
-}*/
+}
 
 .home-template .tag-songwriting:before, .archive-template .tag-songwriting:before {
-    content: '\f001'; /*'h';*/
+    content: '\f001'; 
     background-color: #455466; }
 
 .home-template .tag-photography:before, .archive-template .tag-photography:before {
-    content: '\f083'; /*'h';*/
+    content: '\f083'; 
     background-color: #455466; }
 
 .home-template .tag-linkage:before, .archive-template .tag-linkage:before {
-    content: '\f0c1'; /*'h';*/
+    content: '\f0c1'; 
     background-color: #455466; }
     
 .home-template .tag-likes:before, .archive-template .tag-likes:before {
-    content: '\f004'; /*'h';*/
-    background-color: #455466; }
+    content: '\f004'; 
+    background-color: #455466; }*/
 
 .home-template article.post.featured, .archive-template article.post.featured {
   background: #ededec; }
