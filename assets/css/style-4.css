@@ -702,27 +702,13 @@ video {
 
 iframe, embed, object {
   width: 100%; }
-
+    
 blockquote {
   font-style: italic;
-  color: #6e6e6e; }
-  blockquote:before {
-    content: 'a';
-    speak: none;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-transform: none;
-    line-height: 1;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    font-family: 'northemes-icons';
-    font-size: 1.8em;
-    position: absolute;
-    margin-left: -1.2em;
-    margin-top: -0.1em; }
-  blockquote cite {
-    font-weight: bold; }
+  background: #f9f9f9;
+  border-left: 0.4em solid #455466;
+  padding: 0px 0px 0px 20px;
+  margin: 0px; }
 
 .home {
   border: 1px solid red; }
@@ -1610,7 +1596,7 @@ ul.actions {
 	border: .15em solid #111111;
     }*/
     
-    /* MAILCHIMP FORM */
+/* MAILCHIMP FORM */
 	    
 div.mc-field-group input {
 	font-style: italic;
@@ -1638,5 +1624,30 @@ input.button {
 
 input.button:hover {
     background: #da5755; }
+    
+/* PRINT OPTIMIZED STYLE SHEET */
+    
+@media print {
+	
+   .sidebar-header {
+	   display: none;
+   }
+   
+   img {
+   	   max-width: 100%;
+   }
+   
+   hr {
+	   display: none;
+   }
+   
+   .pagination {
+	   display: none;
+   }
+   
+   .site-footer {
+	   display: none;
+   }
+}
     
 	
