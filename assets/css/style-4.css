@@ -948,7 +948,7 @@ h4, h5, h6 {
       margin: 0.5em 0 2em; } }
 
 .social-icons {
-  -webkit-animation: flip-in-y 1s ease;
+  /*-webkit-animation: flip-in-y 1s ease;
   -moz-animation: flip-in-y 1s ease;
   animation: flip-in-y 1s ease;
   -webkit-animation-fill-mode: forwards;
@@ -962,7 +962,7 @@ h4, h5, h6 {
   -moz-backface-visibility: visible !important;
   -o-backface-visibility: visible !important;
   backface-visibility: visible !important;
-  opacity: 0;
+  opacity: 0;*/
   margin: 0.5em 0 0.3em 0; }
   .social-icons:before, .social-icons:after {
     content: " ";
